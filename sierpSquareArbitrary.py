@@ -47,7 +47,7 @@ def sierpinskiCarpet(points, level, window, color, n):
 
 
 def main():
-    depth = 4
+    depth = 3
     subdivisions = 5
     size = subdivisions ** depth
     margin = size // 20

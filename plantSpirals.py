@@ -1,4 +1,4 @@
-from PIL import Image as NewImage
+import PIL
 import math, numpy
 import turtle
 
@@ -67,5 +67,5 @@ cv = turtle.getcanvas()
 cv.postscript(file="plantSpiral.ps", colormode='color')
 turtle.bye() # lets you x out of the window when outside of idle
 
-img = NewImage.open("plantSpiral.ps")
+img = PIL.Image.open("plantSpiral.ps")
 img.save("plantSpiral.png", "png")
